@@ -46,7 +46,7 @@ namespace ThirtyDaysOfTDD.UnitTests
             Assert.Throws<ArgumentException>(() =>
                 stringUtils.FindNumberOfOccurences(sentenceToScan, characterToScanFor)
             );
-            
+
         }
     }
 }
