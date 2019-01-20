@@ -48,5 +48,11 @@ namespace ThirtyDaysOfTDD.UnitTests
             );
 
         }
+
+        [Test]
+        public void Add()
+        {
+            Assert.AreEqual(1, 1);
+        }
     }
 }
